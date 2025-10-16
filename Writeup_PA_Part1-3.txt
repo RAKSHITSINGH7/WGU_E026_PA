@@ -1,0 +1,49 @@
+Part C.
+1) Through adding horizontal and vertical scaling we are making our network easier to scale and more resilient. AI-enhanced network can automatically add more routers, switches or virtual machines (horizontal scaling) as demand grows, furthermore, it can also upgrade device capacity and bandwidth (vertical scaling) too. Thus, this diagram and solution supports scalability and supports Pruhart's anticipated growth.
+
+2) The resource management techniques used in this design are Elastic resource allocation and load balancing. Both of these help to optimize performance, by shifting traffic intelligently between routers and switches, ensuring equal bandwidth use and avoiding congestion across nodes. As Pruhart's business needs grows, it will be important that traffic and accessibility to the network is clean and proper. With these two management technique, future growth and planning is much simpler and ready.
+
+
+Part D.
+
+1) This AI-Enhanced design is intended to reduce latency through predictive routing via smart load balancing rules, and improves fault tolerance via self-healing reroutes. Comparing to the current setup, not only are the response times faster but also downtime is minimized significantly.
+
+2) Continuous monitoring is something which is necessary in any business, with the help of AI, it becomes alot more manageable. With AI continuous monitoring, I would recommend performance tuning with periodically checking traffic data and readjusting routes, or scaling up/out resources as needed based off the monitoring data.
+
+
+Part E.
+
+1) The AI-Powered intrusion detection and prevention system used will be Cisco Secure IPS with AI analytics. It will be integrated into the router layer. It uses machine learning to detect and block suspicious traffic pattern in real time.
+
+2) This specific solution fits the design because it seamlessly integrates with routers and supports the needs of a large healthcare provider's traffic with adaptive and low latency protection.
+
+
+Part F.
+
+1) AI driven threat intelligence feeds would improve security response times by quickly identifying patterns and symptoms of a threat, also cutting response time and launching corrective actions significantly. It will help preempt attacks before impacting the healthcare's operations.
+
+2) We actually combined heuristic and sandboxing with AI analytics to catch both known and the zero day malware. Although known malware can be easy, its important to not overlook zero day malware as that is often tricky and challenging to implement. But with the help of AI and pattern identifying, this ensures higher detection accuracy than normal traditional only signature based methods.
+
+
+Part G.
+
+AI tools can be utilized to monitor network behavior continuously, detect anomalies, and automatically trigger actions based on identified threat. For example, AI can automatically quarantine endpoints and routes to prevent virus or threat from spreading. Additionally, we can also reroute network traffic through secure backup paths to maintain uptime during these quarantine incidents. Also we can use AI-driven playbooks which will help us prioritize alerts and helps guide staff towards faster resolution which in turn, significantly reduces response times and therefore improving Pruhart Health's incident response capabilities.
+
+
+
+Part H
+
+The AI Tool streamlines network automation via predicting traffic loads, adjusting routes, and optimizing bandwidth. Thus, improving overall performance and reliability. Unlike traditional manual management, this AI system will proactively manage and identify issues before they impact users and automatically adjust configurations across routers and switches. A method to evaluate the effectiveness can be using something called "AIOps framework" which measures performance via statistics like latency reduction, uptime consistency, and response accuracy.
+
+
+Part I
+
+Two potential costs can be : AI tool licensing and increased processing power
+Two potential benefits can be: reduced downtime, improved network efficiency, and cost saving on long-term labor through automation
+
+
+
+Part J
+1) AI algorithms consume extra CPU and memory for traffic prediction and anomaly detection but optimize bandwidth by preventing network congestion due to continuous monitoring and data sharing occur between sites.
+
+2) A strategy to maintain efficiency, Pruhart Health can implement cloud based scaling to allocate computing power only when needed. Furthermore, we can schedule heavy computing tasks during off peak hours and use lightweight edge computing  processing at router and servers can minimize resource strain while keeping operational cost low.
